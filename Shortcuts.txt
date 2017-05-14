@@ -1,0 +1,10 @@
+#display current ram usage
+$ free -m
+
+#shutdown immediately
+$ sudo shutdown now -h
+
+Console scrolling = Shift + Pg up
+
+check free space
+$ df  -h

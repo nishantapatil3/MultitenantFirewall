@@ -1,0 +1,17 @@
+https://linuxconfig.org/setting-up-softether-vpn-server-on-ubuntu-16-04-xenial-xerus-linux
+
+
+sudo route add default gw 192.168.30.1
+
+sudo ip route del default via 10.0.0.1
+
+
+hub: computehub
+pass: firewall
+
+user: first
+pass: first
+
+client
+user:first0
+pass:first0

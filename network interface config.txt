@@ -1,0 +1,17 @@
+# Set up an interface to read all the traffic on the network. This
+# configuration can be useful to setup Network Intrusion Detection
+# sensors in 'stealth'-type configuration. This prevents the NIDS
+# system to be a direct target in a hostile network since they have
+# no IP address on the network. Notice, however, that there have been
+# known bugs over time in sensors part of NIDS (for example see
+# DSA-297 related to Snort) and remote buffer overflows might even be
+# triggered by network packet processing.
+#
+# auto eth0
+# iface eth0 inet manual
+#       up ifconfig $IFACE 0.0.0.0 up
+#       up ip link set $IFACE promisc on
+#       down ip link set $IFACE promisc off
+#       down ifconfig $IFACE down
+
+sudo service networking restart

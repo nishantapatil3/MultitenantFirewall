@@ -1,0 +1,6 @@
+/opt/stack/horizon/openstackdashboard/local/localsettings.py file
+
+Change this line
+Allowed hosts=[‘*’, ]
+
+sudo service apache2 restart

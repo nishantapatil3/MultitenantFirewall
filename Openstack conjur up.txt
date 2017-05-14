@@ -1,0 +1,10 @@
+http://conjure-up.io/
+
+$ sudo snap install conjure-up --classic
+ $ conjure-up
+ 
+
+Your public IP address
+https://docs.openstack.org/user-guide/common/cli-set-environment-variables-using-openstack-rc.html
+
+https://github.com/miguelgrinberg/vagrant-devstack/blob/master/admin-openrc.sh
